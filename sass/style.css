@@ -25,25 +25,25 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 0.6rem;
-  border-radius: 2.6rem;
+  width: 6px;
+  border-radius: 26px;
   background-color: blanchedalmond;
 }
 
 .header {
-  -webkit-box-shadow: 0 0 3rem #333;
-          box-shadow: 0 0 3rem #333;
+  -webkit-box-shadow: 0 0 30px #333;
+          box-shadow: 0 0 30px #333;
   font-size: 1.6rem;
   width: 100%;
   height: 10vh;
-  padding: 1rem;
+  padding: 10px;
   position: -webkit-sticky;
   position: sticky;
   left: 0;
   top: 0;
   z-index: 100;
-  border-bottom-right-radius: 1.5rem;
-  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
   background-color: #b0b0b0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -61,16 +61,16 @@ body::-webkit-scrollbar {
 }
 
 .header img {
-  max-width: 5rem;
-  margin-top: 1rem;
-  margin-right: 1.6rem;
+  max-width: 50px;
+  margin-top: 10px;
+  margin-right: 16px;
 }
 
 .header input {
   width: 25rem;
-  padding: 0.6rem;
+  padding: 6px;
   text-indent: 1.8rem;
-  border-radius: 3rem;
+  border-radius: 30px;
 }
 
 .header .header__nav {
@@ -107,7 +107,7 @@ body::-webkit-scrollbar {
 
 .header .header__nav .header__menu .header__items a {
   display: inline-block;
-  margin-right: 2.9rem;
+  margin-right: 29px;
   text-decoration: none;
   color: #000000;
 }
@@ -136,8 +136,8 @@ main .init {
 }
 
 main .init div {
-  width: 100.5rem;
-  padding: 1.5rem;
+  width: 100%;
+  padding: 15px;
 }
 
 main .init div h1 {
@@ -147,8 +147,8 @@ main .init div h1 {
 
 main .init img {
   width: 100%;
-  padding: 1rem;
-  border-radius: 2rem;
+  padding: 10px;
+  border-radius: 20px;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -189,15 +189,15 @@ main .container__cards .container__cards-card {
 }
 
 main .container__cards .container__cards-card span {
-  padding: 1rem;
-  border-radius: 1rem;
+  padding: 10px;
+  border-radius: 10px;
 }
 
 main .container__cards .container__cards-card img {
   width: 100%;
-  height: 49.1rem;
-  padding: 1.5rem;
-  border-radius: 2rem;
+  height: 491px;
+  padding: 15px;
+  border-radius: 20px;
 }
 
 main .container__cards .container__cards-card .blue {
@@ -234,15 +234,15 @@ main .gallery {
 }
 
 main .gallery::-webkit-scrollbar {
-  height: 1rem;
-  border-radius: 2.6rem;
+  height: 10px;
+  border-radius: 26px;
   background-color: #fffff1;
 }
 
 main .gallery .box img {
   width: 25.5%;
-  height: 27.9rem;
-  border-radius: 2rem;
+  height: 279px;
+  border-radius: 20px;
 }
 
 .footer {
@@ -266,8 +266,8 @@ main .gallery .box img {
 
 .footer .fab {
   font-size: 1.6rem;
-  margin-right: 1.5rem;
-  margin-left: 2rem;
+  margin-right: 15px;
+  margin-left: 20px;
   color: #855959;
 }
 
@@ -276,6 +276,6 @@ main .gallery .box img {
 }
 
 .footer p {
-  margin: 2rem;
+  margin: 20px;
 }
 /*# sourceMappingURL=style.css.map */
