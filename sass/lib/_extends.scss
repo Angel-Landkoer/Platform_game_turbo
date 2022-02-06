@@ -1,0 +1,17 @@
+%p {
+  font-size: $defaultFont-size;
+  color: $quaternaryColor;
+}
+
+%span {
+  font-size: $defaultFont-size;
+  color: $quaternaryColor;
+}
+
+%a {
+  text-decoration: $all-a;
+}
+
+%h2 {
+  font-size: $defaultFont-size-H;
+}

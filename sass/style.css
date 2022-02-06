@@ -1,0 +1,281 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Poppins", sans-serif;
+}
+
+main .init div p, main .div__text p, .footer p {
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+main .container__cards .container__cards-card span {
+  font-size: 1.6rem;
+  color: #000000;
+}
+
+body {
+  background-color: #b0b0b0;
+}
+
+body::-webkit-scrollbar {
+  width: 0.6rem;
+  border-radius: 2.6rem;
+  background-color: blanchedalmond;
+}
+
+.header {
+  -webkit-box-shadow: 0 0 3rem #333;
+          box-shadow: 0 0 3rem #333;
+  font-size: 1.6rem;
+  width: 100%;
+  height: 10vh;
+  padding: 1rem;
+  position: -webkit-sticky;
+  position: sticky;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  background-color: #b0b0b0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header img {
+  max-width: 5rem;
+  margin-top: 1rem;
+  margin-right: 1.6rem;
+}
+
+.header input {
+  width: 25rem;
+  padding: 0.6rem;
+  text-indent: 1.8rem;
+  border-radius: 3rem;
+}
+
+.header .header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header .header__nav .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+.header .header__nav .header__menu .header__items a {
+  display: inline-block;
+  margin-right: 2.9rem;
+  text-decoration: none;
+  color: #000000;
+}
+
+main {
+  background-color: #616161;
+}
+
+main .init {
+  width: 100%;
+  height: 85vh;
+  background-color: #616161;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .init div {
+  width: 100.5rem;
+  padding: 1.5rem;
+}
+
+main .init div h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+main .init img {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 2rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+main .container__cards {
+  width: 100%;
+  height: 100vh;
+  background-color: #616161;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container__cards .container__cards-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main .container__cards .container__cards-card span {
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+main .container__cards .container__cards-card img {
+  width: 100%;
+  height: 49.1rem;
+  padding: 1.5rem;
+  border-radius: 2rem;
+}
+
+main .container__cards .container__cards-card .blue {
+  background-color: #0d75b6;
+}
+
+main .container__cards .container__cards-card .yellow {
+  background-color: #f7fa0c;
+}
+
+main .container__cards .container__cards-card .green {
+  background-color: #41c919;
+}
+
+main .div__text {
+  text-align: center;
+}
+
+main .div__text h2 {
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+
+main .gallery {
+  width: 100%;
+  height: 50vh;
+  background-color: #616161;
+  white-space: nowrap;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 50px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+}
+
+main .gallery::-webkit-scrollbar {
+  height: 1rem;
+  border-radius: 2.6rem;
+  background-color: #fffff1;
+}
+
+main .gallery .box img {
+  width: 25.5%;
+  height: 27.9rem;
+  border-radius: 2rem;
+}
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #3a3a3a;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .fab {
+  font-size: 1.6rem;
+  margin-right: 1.5rem;
+  margin-left: 2rem;
+  color: #855959;
+}
+
+.footer a :hover {
+  color: aliceblue;
+}
+
+.footer p {
+  margin: 2rem;
+}
+/*# sourceMappingURL=style.css.map */
